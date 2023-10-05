@@ -1,0 +1,36 @@
+/* Estilos para cuando la pantalla es más grande (LG y XL) */
+@media (min-width: 992px) {
+    .align-right {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+    }
+}
+
+/* Estilos para cuando la pantalla es mediana (MD) o pequeña (SM) */
+@media (max-width: 991px) {
+    .align-right {
+        position: static; 
+    }
+}
+ 
+ .titulo {
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.carrusel {
+    text-align: center;
+}
+
+.list-unstyled li {
+    background-color: #fff;
+    color: #666; 
+    border: 1px solid #666; 
+    border-radius: 5px; 
+    padding: 15px 10px; 
+}
+.list-unstyled li a {
+    color: #666; 
+}
